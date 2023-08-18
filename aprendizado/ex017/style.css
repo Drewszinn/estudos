@@ -1,0 +1,17 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  
+  /* 
+  Medidas absolutas cm, mm, in, px. pt, pc
+
+  Medidas relativas  em, ex, rem, vw,  % 
+  weight peso, width largura e height altura
+
+  shorthand font ondem - fonte-style -> font-weight -> font-size -> font-family
+  */
+  font-size: 1em;
+}
+
+h1 {
+  font: bolder 3em sans-serif;
+}

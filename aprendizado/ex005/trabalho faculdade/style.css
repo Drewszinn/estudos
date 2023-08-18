@@ -1,0 +1,29 @@
+@font-face {
+  font-family: cuisine;
+  src: url(fontes/IndieFlower-Regular.ttf);
+  font-weight: normal;
+}
+
+*{
+  background-attachment: fixed;
+}
+
+body{
+  background-image: linear-gradient(to right, #F2B705, #F29F05);
+}
+
+.menu{
+  display: inline-block;
+  cursor: pointer;
+}
+
+.home{
+  font-family: cuisine;
+  text-align: center;
+  color: black;
+  margin-top: 200px;
+  
+  padding: 20px;
+  border-radius: 10px;
+  
+}

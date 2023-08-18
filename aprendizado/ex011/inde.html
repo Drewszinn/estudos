@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EX011t</title>
+  </head>
+  <body>
+    <h1>Imagem dinâmica.</h1>
+    <p>
+      Vamos tentar abrir a imagem em diferentes dispositivos ou diminua e
+      aumente o tamanho do seu navegador.
+    </p>
+
+    <picture>
+      <source
+        media="(max-width: 750px)"
+        srcset="Imagens/P.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="Imagens/M.png"
+        type="image/png"
+      />
+      <img src="Imagens/G.png" alt="Imagem flexível" />
+    </picture>
+
+    <p>
+      Fizemos os ajudos de imagem de acordo com o tamanho da aba do navegador
+      usando
+      <strong
+        >source media="(max-width: px)" srcset"LOCAL DE ONDE ESTÁ AS IMAGENS"
+        type="Imagem/formato />"</strong
+      >
+    </p>
+    <hr />
+
+    <h1>Reproduzindo audio</h1>
+    <p>
+      Vamos aprender a reproduzirt audio em html:5. vamos fazer isso usando a
+      tag
+      <strong
+        >audio src="local do arquivo" controls (para controlar o audio)</strong
+      >
+    </p>
+    <audio
+      preload="metadata"
+      loop
+      src="midia/Desktop-2023.05.31-13.31.36.15.DVR_Trim.mp3"
+      controls
+    ></audio>
+    <p>Se quiser baixar essa obra prima acesse:</p>
+    <a href="midia/Desktop-2023.05.31-13.31.36.15.DVR_Trim.mp3" target="_blank">
+      BAIXAR O AUDIO</a
+    >
+  </body>
+</html>

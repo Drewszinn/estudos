@@ -1,0 +1,21 @@
+
+.primeiro {
+  background-color: blue;
+  color: white;
+}
+
+.segundo {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+.terceiro {
+  background-color: rgb(0, 0, 255) ;
+  Color:white;
+}
+
+.quarto {
+  background-color: hsl(240, 100%, 50% ) ;
+  color: white;
+}
+

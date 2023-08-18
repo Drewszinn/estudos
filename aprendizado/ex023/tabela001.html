@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela001</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      width: 400px;
+      height: 400px;
+      border-collapse: collapse;
+      font-weight: bolder;
+      
+    }
+    
+
+    tr#grey {
+      background-color: grey;
+    }
+    
+    tr#red {
+      background-color: rgba(255, 0, 0, 0.685);
+    }
+
+    td{
+      border: solid 2px black;
+      padding: 8px;
+      text-align: center;
+      vertical-align: top;
+    }
+
+    td#cor1 {
+      background-color: gold;
+    }
+
+    td#cor2 {
+      background-color:gray ;  
+    }
+
+    td#cor3 {
+      background-color: wheat;
+    }
+
+    td#cor4 {
+      background-color: lightpink ;
+    }
+
+    .numero {
+      text-align: right;
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <h1>Minha primeira Tabela</h1>
+  <!--
+  HIERARQUIA DE TABELAS
+
+  TABLE = tabela;
+    TABLE ROW =  linha de tabela;
+      TABLE HEADER = cabeçalho de tabela;
+      TABLE DATA = dado de tabel;
+  -->
+
+  <table>
+    <tr id="text">
+      <td>ANIMAL</td>
+      <td>number</td>
+      <td>color</td>
+    </tr>
+    <tr>
+      <td>CACHORROS</td>
+      <td class="numero">5</td>
+      <td id="cor1">C1</td>
+    </tr>
+
+    <tr>
+      <td>GATOS</td>
+      <td class="numero">2</td>
+      <td id="cor2">C2</td>
+    </tr>
+
+    <tr>
+      <td>COELHOS</td>
+      <td class="numero">3</td>
+      <td id="cor3">C3</td>
+    </tr>
+
+    <tr>
+      <td>MACACOS</td>
+      <td class="numero">4</td>
+      <td id="cor4">C4</td>
+    </tr>
+  </table>
+</body>
+</html>
