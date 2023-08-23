@@ -57,7 +57,9 @@ header menu ul li a {
     text-decoration: none;
     text-align: center;
     color: white;
-    border-top: 2px solid rgb(255, 255, 255);
+    background-color: rgb(63, 62, 62);
+    border-top: 2px solid rgba(255, 255, 255, 0.158);
+
 }
 
 header menu ul li a:hover {
